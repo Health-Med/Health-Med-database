@@ -5,13 +5,18 @@ on:
     branches:
       - develop
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
 jobs:
   abrir-pr-para-main:
     runs-on: ubuntu-latest
 
     steps:
       - name: Fazer checkout da branch develop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: develop
 
