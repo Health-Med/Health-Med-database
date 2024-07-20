@@ -1,4 +1,5 @@
 # Health-Med-database
+
 ## Configurando a Infraestrutura na AWS
 Processo de configuração da infraestrutura na AWS. Abaixo está um guia rápido do primeiro passo para iniciar esse processo:
 
