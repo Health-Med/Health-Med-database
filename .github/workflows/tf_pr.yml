@@ -5,6 +5,10 @@ on:
     branches:
       - develop
 
+permissions:
+  contents: read
+  pages: write
+
 jobs:
   open-pr-to-main:
     runs-on: ubuntu-latest
