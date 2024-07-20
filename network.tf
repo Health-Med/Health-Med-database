@@ -4,7 +4,7 @@ resource "aws_vpc" "cluster-vpc-bb" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "vpc-healthmedr"
+    Name = "vpc-healthmed"
   }
 }
 

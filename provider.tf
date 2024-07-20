@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "healthmedbucket"
-    key    = "bluesburguer/database.tfstate"
+    key    = "healthmeddatabase/database.tfstate"
     region = "us-east-1"
   }
 }
