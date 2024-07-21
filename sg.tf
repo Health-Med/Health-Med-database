@@ -59,8 +59,8 @@ resource "aws_security_group" "private_subnet_sg" {
   }
 
   ingress {
-    from_port       = 8021
-    to_port         = 8021
+    from_port       = 8022
+    to_port         = 8022
     protocol        = "tcp"
     security_groups = [aws_security_group.public_subnet_sg.id]
   }
